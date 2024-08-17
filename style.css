@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar.navbar-expand-lg.bg-light {
+    background-color: #8daab3 !important; 
+    backdrop-filter: blur(40px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 15px !important;
+}
+ /* Custom Styles */
+ .hime{
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh; 
+    width: auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+.hime .btn-explore {
+    background-color: #ffffff;
+    color: #000000; 
+    border: 2px solid #ffffff; 
+    border-radius: 30px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
+    
+}
+.hime.btn-explore:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+    border-color: #ffffff;
+    text-decoration: none;
+}
+.card {
+    margin-bottom: 20px; 
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.custom-img {
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+.row-gap {
+    margin-bottom: 20px;
+}
+.container-fluid{
+    background-color:#8daab3 !important;
+    width: 100%;
+    height: auto;
+    
+}
+.container {
+    overflow: auto;
+    max-height: 100vh; /* or a smaller value if needed */
+}
+
+.footer {
+    background-color: #FF69B4; 
+    color: #4a4a4a; 
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 5px solid #09a2d0;
+}
+
+.footer h5 {
+    color: #09a2d0; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer .form-control {
+    background-color: #517f8d;
+    border: 1px solid #338fab;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.footer .btn-primary {
+    background-color: #09a2d0; 
+    border: none;
+    transition: background-color 0.3s ease; 
+}
+
+.footer .btn-primary:hover {
+    background-color: #09a2d0; 
+}
+
+.footer .social a {
+    margin: 0 10px;
+    color: #09a2d0; 
+    font-size: 24px; 
+    transition: color 0.3s ease;
+}
+
+.footer .social a:hover {
+    color: #3309c9; 
+}
+
+
+
+
+
